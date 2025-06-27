@@ -1,15 +1,21 @@
-# Ignore model weights and temporary files
+#  Ignore only the model weights (optional if tracked elsewhere)
 football_project/model/best.pt
-*.mp4
-*.avi
 
-# Ignore all videos json EXCEPT the final output
+#  Ignore only large video files — you can adjust the folder or file type
+football_project/videos/broadcast.mp4
+football_project/videos/tacticam.mp4
+
+#  Keep all JSONs except specific ones you want to skip
+# This line ignores ALL JSON files inside `videos/`...
 football_project/videos/*.json
+# ...but this one will still be tracked (important JSON file)
 !football_project/videos/tacticam_to_broadcast_id_map.json
 
-# Python cache and environments
+#  Python cache and environment files (standard)
 __pycache__/
 *.pyc
 .venv/
-.env/
+.env
+
+#  Optional: ignore personal/editor config
 .vscode/
