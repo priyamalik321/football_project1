@@ -1,9 +1,8 @@
 # Python cache and virtualenv
 __pycache__/
-*.pyc
+.pyc
 .venv/
-.env/
-.vscode/
+
 
 # Video outputs / temporary files
 *.mp4
