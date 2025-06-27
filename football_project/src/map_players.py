@@ -78,4 +78,4 @@ if __name__ == "__main__":
 
     save_mapping(player_mapping, "football_project/videos/tacticam_to_broadcast_id_map.json")
 
-    print("✅ Mapping complete. Output saved to tacticam_to_broadcast_id_map.json")
+    print(" Mapping complete. Output saved to tacticam_to_broadcast_id_map.json")
