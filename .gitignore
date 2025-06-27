@@ -1,0 +1,17 @@
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+.venv/
+.env/
+.vscode/
+
+# Video outputs / temporary files
+*.mp4
+*.avi
+
+# Model weights
+football_project/model/best.pt
+
+# Generated data files
+football_project/videos/*.json
+!football_project/videos/tacticam_to_broadcast_id_map.json  # include final output
